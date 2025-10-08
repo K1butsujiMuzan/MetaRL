@@ -1,0 +1,17 @@
+@import url("fonts.css");
+@import url("normalize.css");
+@import "tailwindcss";
+
+@theme{
+  --font-audiowide: Audiowide, "sans-serif";
+  --font-dmmono: "DM Mono", "sans-serif";
+  --font-inter: Inter, "sans-serif"
+}
+
+body{
+  font-family: var(--font-inter);
+}
+
+:root {
+  --color-lime: #8DFD1B;
+}
