@@ -5,13 +5,10 @@
 @theme{
   --font-audiowide: Audiowide, "sans-serif";
   --font-dmmono: "DM Mono", "sans-serif";
-  --font-inter: Inter, "sans-serif"
+  --font-inter: Inter, "sans-serif";
+  --color-toxic-400: #8DFD1B;
 }
 
 body{
   font-family: var(--font-inter);
-}
-
-:root {
-  --color-lime: #8DFD1B;
 }

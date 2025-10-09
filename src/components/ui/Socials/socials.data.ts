@@ -8,7 +8,6 @@ interface ISocials {
   alt: string
 }
 
-export const links:string[] = ["Wave NFTs", "Stories", "Contact"]
 export const socials:ISocials[] = [
   {
     image: twitter,
