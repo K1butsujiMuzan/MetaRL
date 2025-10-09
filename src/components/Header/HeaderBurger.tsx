@@ -32,7 +32,7 @@ const HeaderBurger: React.FC = () => {
     <>
       <BurgerButton onClick={toggleBurger} isOpen={isOpen}/>
       <div
-        className={`fixed inset-0 backdrop-blur-xs z-30 ${isOpen ? "opacity-100" : "opacity-0 delay-100"} md:hidden transition-opacity duration-300`}
+        className={`fixed inset-0 backdrop-blur-xs z-30 ${isOpen ? "opacity-100" : "opacity-0 delay-100 pointer-events-none"} md:hidden transition-opacity duration-300`}
         onClick={toggleBurger}
       >
         <div
