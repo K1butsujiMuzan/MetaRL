@@ -1,15 +1,15 @@
-@import url("fonts.css");
-@import url("normalize.css");
-@import "tailwindcss";
+@import url('fonts.css');
+@import url('normalize.css');
+@import 'tailwindcss';
 
-@theme{
-  --font-audiowide: Audiowide, "sans-serif";
-  --font-dmmono: "DM Mono", "sans-serif";
-  --font-inter: Inter, "sans-serif";
-  --color-toxic-400: #8DFD1B;
+@theme {
+  --font-audiowide: Audiowide, 'sans-serif';
+  --font-dmmono: 'DM Mono', 'sans-serif';
+  --font-inter: Inter, 'sans-serif';
+  --color-toxic-400: #8dfd1b;
   --text-52: 3.25rem;
 }
 
-body{
+body {
   font-family: var(--font-inter);
 }

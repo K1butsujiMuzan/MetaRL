@@ -15,6 +15,12 @@ export default defineConfig([
       reactHooks.configs['recommended-latest'],
       reactRefresh.configs.vite,
     ],
+    rules: {
+      'no-console': 'warn',
+      eqeqeq: 'warn',
+      curly: 'warn',
+      'no-else-return': 'warn',
+    },
     languageOptions: {
       ecmaVersion: 2020,
       globals: globals.browser,

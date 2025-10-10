@@ -13,18 +13,7 @@ body,
   margin: 0;
 }
 
-:where(
-  h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  h6,
-  p,
-  ul,
-  ol,
-  dl
-):where([class]) {
+:where(h1, h2, h3, h4, h5, h6, p, ul, ol, dl):where([class]) {
   margin-block: 0;
 }
 
@@ -92,17 +81,11 @@ button {
   -webkit-tap-highlight-color: transparent;
 }
 
-:where([fill]:not(
-  [fill="none"],
-  [fill^="url"]
-)) {
+:where([fill]:not([fill='none'], [fill^='url'])) {
   fill: currentColor;
 }
 
-:where([stroke]:not(
-  [stroke="none"],
-  [stroke^="url"]
-)) {
+:where([stroke]:not([stroke='none'], [stroke^='url'])) {
   stroke: currentColor;
 }
 

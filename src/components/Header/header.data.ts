@@ -1,1 +1,1 @@
-export const links:string[] = ["Wave NFTs", "Stories", "Contact"]
+export const links: string[] = ['Wave NFTs', 'Stories', 'Contact']
