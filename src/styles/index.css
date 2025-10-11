@@ -7,7 +7,10 @@
   --font-dmmono: 'DM Mono', 'sans-serif';
   --font-inter: Inter, 'sans-serif';
   --color-toxic-400: #8dfd1b;
+  --color-gray-400: #A8A8A8;
   --text-52: 3.25rem;
+  --text-38: 2.375rem;
+  --text-80: 5rem;
 }
 
 body {

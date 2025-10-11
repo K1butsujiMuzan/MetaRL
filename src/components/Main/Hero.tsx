@@ -1,11 +1,9 @@
 import * as React from 'react'
-import heroBG from '@assets/images/backgrounds/hero.png'
 
 const Hero: React.FC = () => {
   return (
     <section
-      className={`container bg-contain bg-right bg-local bg-no-repeat px-4 pt-11 md:pt-33 pb-8.5 md:pb-26 flex flex-col gap-20 md:gap-29 items-start mx-auto`}
-      style={{ backgroundImage: `url(${heroBG})` }}
+      className={`bg-contain bg-right bg-local bg-[url('/src/assets/images/backgrounds/hero.png')] bg-no-repeat pt-11 md:pt-33 pb-8.5 md:pb-26 flex flex-col gap-20 md:gap-29 items-start`}
     >
       <div className={'flex flex-col gap-11'}>
         <h1
@@ -23,7 +21,7 @@ const Hero: React.FC = () => {
       <a
         href={'#'}
         className={
-          'bg-toxic-400 px-13.5 pt-4 pb-7 font-dmmono text-base leading-4 hover:bg-black hover:text-toxic-400 hover:outline hover:outline-toxic-400 active:scale-97 transition-all duration-300'
+          'text-center px-7 pt-2 pb-3.5 bg-toxic-400 font-dmmono text-base leading-4 hover:bg-black hover:text-toxic-400 hover:outline hover:outline-toxic-400 active:bg-black active:text-toxic-400 active:outline active:outline-toxic-400 active:scale-97 transition duration-300 md:px-13.5 md:pt-4 md:pb-7'
         }
       >
         Learn More

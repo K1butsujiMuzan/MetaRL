@@ -6,7 +6,7 @@ import HeaderBurger from '@components/Header/HeaderBurger.tsx'
 
 const Header: React.FC = () => {
   return (
-    <header className={'bg-black px-4'}>
+    <header className={'bg-black px-4 sticky top-0'}>
       <div
         className={
           'container pt-6 md:pt-12 pb-3 flex gap-x-10 justify-between mx-auto items-center max-w-290'

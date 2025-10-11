@@ -38,7 +38,7 @@ const HeaderBurger: React.FC = () => {
         onClick={toggleBurger}
       >
         <div
-          className={`w-1/2 bg-black h-full right-0 absolute flex flex-col justify-center gap-10 px-1 z-40 ${isOpen ? 'translate-x-0' : 'translate-x-full'} transition-transform duration-300`}
+          className={`w-1/2 bg-black h-full right-0 absolute overflow-y-auto flex flex-col justify-center gap-10 px-1 z-40 ${isOpen ? 'translate-x-0' : 'translate-x-full'} transition-transform duration-300`}
           onClick={(event: React.MouseEvent) => event.stopPropagation()}
         >
           <HeaderLinks onLinkClick={closeBurger} />
