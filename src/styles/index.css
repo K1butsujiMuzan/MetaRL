@@ -16,3 +16,8 @@
 body {
   font-family: var(--font-inter);
 }
+
+.scroller::-webkit-scrollbar{
+  height: 0;
+  width: 0;
+}

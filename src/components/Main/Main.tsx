@@ -2,6 +2,7 @@ import * as React from "react"
 import Hero from "@components/Main/Hero.tsx"
 import Collection from "@components/Main/Collection.tsx"
 import Scroller from "@components/ui/Scroller/Scroller.tsx";
+import Artists from "@components/Main/Artists.tsx";
 
 const Main: React.FC = () => {
   return(
@@ -10,6 +11,7 @@ const Main: React.FC = () => {
         <Hero />
         <Collection/>
         <Scroller text={"artist"}/>
+        <Artists/>
       </div>
     </main>
   )
