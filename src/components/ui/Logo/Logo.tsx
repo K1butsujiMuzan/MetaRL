@@ -1,4 +1,4 @@
-import logo from '@assets/images/Logo.svg'
+import logo from '@assets/images/logo/Logo.svg'
 import * as React from 'react'
 
 const Logo: React.FC = () => {

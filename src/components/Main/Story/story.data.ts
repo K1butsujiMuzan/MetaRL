@@ -3,21 +3,35 @@ import story2 from "@assets/images/story/story2.png"
 import story3 from "@assets/images/story/story3.png"
 
 export interface IStoryInformation {
-  id: string,
+  id: number,
   image: string,
   title: string,
   information: string[]
 }
 
-export const storyButtons: string[] = [
-  "Our founders",
-  "Partners",
-  "The future"
+interface IStoryButtons {
+  id: number,
+  text: string
+}
+
+export const storyButtons: IStoryButtons[] = [
+  {
+    id: 1,
+    text: "Our founders"
+  },
+  {
+    id: 2,
+    text: "Partners"
+  },
+  {
+    id: 3,
+    text: "The future"
+  },
 ]
 
 export const storyInformation: IStoryInformation[] = [
   {
-    id: "Our founders",
+    id: 1,
     image: story1,
     title: "META record label was founded by Shaky Lake and Baky Hike in 2020 business accelerator.",
     information: [
@@ -27,7 +41,7 @@ export const storyInformation: IStoryInformation[] = [
     ]
   },
   {
-    id: "Partners",
+    id: 2,
     image: story2,
     title: "META record label partners with visionary creators and industry innovators to shape the future of music.",
     information: [
@@ -37,7 +51,7 @@ export const storyInformation: IStoryInformation[] = [
     ]
   },
   {
-    id: "The future",
+    id: 3,
     image: story3,
     title: "META record label pioneers Web3 music ecosystems through blockchain technology and NFT integration.",
     information: [
