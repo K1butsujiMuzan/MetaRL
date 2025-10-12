@@ -1,5 +1,5 @@
 import * as React from "react";
-import {artists} from "@components/Main/main.data.ts";
+import {artists} from "@components/Main/artists.data.ts";
 
 const Artists:React.FC = () => {
   return(

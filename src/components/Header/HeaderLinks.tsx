@@ -1,4 +1,4 @@
-import { links } from '@components/Header/header.data.ts'
+import { links } from '@components/Header/headerLinks.data.ts'
 import BaseLink from '@components/ui/BaseLink/BaseLink.tsx'
 import * as React from 'react'
 
