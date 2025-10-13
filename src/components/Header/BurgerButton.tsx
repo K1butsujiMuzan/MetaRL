@@ -2,15 +2,17 @@ import * as React from 'react'
 
 interface Props {
   onClick: () => void
-  isOpen: boolean
+  isOpen: boolean,
+  ref: React.Ref<HTMLButtonElement>
 }
 
-const BurgerButton: React.FC<Props> = ({ onClick, isOpen }) => {
+const BurgerButton: React.FC<Props> = ({ onClick, isOpen, ref }) => {
   return (
     <button
       onClick={onClick}
-      className={`bg-transparent md:hidden w-8 aspect-square relative flex justify-center z-50`}
+      className={`bg-transparent md:hidden w-8 aspect-square absolute flex justify-center z-50 right-0`}
       aria-label={isOpen ? 'Закрыть бургер меню' : 'Открыть бургер меню'}
+      ref={ref}
     >
       <span
         className={`block absolute bg-white w-full h-0.5 rounded ${isOpen ? '-rotate-45 top-1/2' : 'top-0'} transition-transform duration-300`}

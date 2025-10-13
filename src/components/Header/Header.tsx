@@ -9,7 +9,7 @@ const Header: React.FC = () => {
     <header className={'bg-black px-4 sticky top-0 z-30'}>
       <div
         className={
-          'container pt-6 md:pt-12 pb-3 flex gap-x-10 justify-between mx-auto items-center max-w-290'
+          'container pt-6 md:pt-12 pb-3 flex gap-x-10 justify-between mx-auto items-center max-w-290 relative'
         }
       >
         <Logo />

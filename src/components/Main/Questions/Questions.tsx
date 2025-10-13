@@ -1,11 +1,11 @@
 import * as React from "react";
 import wave2 from "@assets/images/waves/wave2.png"
-import {questionsData} from "@components/Main/Questions/questions.ts";
+import {questionsData} from "@components/Main/Questions/questions.data.ts";
 
 const Questions: React.FC = () => {
   return (
     <section className={"flex flex-col gap-6 mx-auto lg:mx-0 lg:flex-row lg:justify-between"}>
-      <div className={"flex flex-col items-center justify-between gap-4 lg:items-start"}>
+      <div className={"flex flex-col items-center text-center justify-between gap-4 lg:text-left lg:items-start"}>
         <h2
           className={"text-2xl leading-10 uppercase font-audiowide max-w-88 md:text-38 md:leading-11.5"}
         >
@@ -27,9 +27,9 @@ const Questions: React.FC = () => {
             key={`question-${index}`}
             className={"px-8 flex flex-col gap-6"}
           >
-            <div className={"flex justify-between items-center"}>
+            <div className={"flex justify-between items-start gap-4"}>
               <span className={"font-dmmono leading-6"}>{question.title}</span>
-              <span className={"block w-4.5 aspect-square bg-white"}></span>
+              <span className={"block shrink-0 w-4.5 aspect-square bg-white"}></span>
             </div>
             <p className={"text-xs text-gray-500 leading-4.5"}>{question.information}</p>
           </li>

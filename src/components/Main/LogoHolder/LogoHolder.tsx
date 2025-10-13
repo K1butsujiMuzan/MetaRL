@@ -1,5 +1,5 @@
 import * as React from "react";
-import {logoList} from "@components/Main/LogoHolder/logoHolder.ts";
+import {logoList} from "@components/Main/LogoHolder/logoHolder.data.ts";
 
 const LogoHolder: React.FC = () => {
   return(
