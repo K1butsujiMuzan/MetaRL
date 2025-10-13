@@ -21,7 +21,7 @@ const Hero: React.FC = () => {
       <a
         href={'#'}
         className={
-          'text-center px-7 pt-2 pb-3.5 bg-toxic-400 font-dmmono text-base leading-4 hover:bg-black hover:text-toxic-400 hover:outline hover:outline-toxic-400 active:bg-black active:text-toxic-400 active:outline active:outline-toxic-400 active:scale-97 transition duration-300 md:px-13.5 md:pt-4 md:pb-7'
+          'text-center px-7 py-2 bg-toxic-400 font-dmmono text-base leading-4 hover:bg-black hover:text-toxic-400 hover:outline hover:outline-toxic-400 active:bg-black active:text-toxic-400 active:outline active:outline-toxic-400 active:scale-97 transition duration-300 md:px-13.5 md:py-4'
         }
       >
         Learn More

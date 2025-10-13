@@ -32,6 +32,18 @@ const HeaderBurger: React.FC = () => {
     return () => window.removeEventListener('keydown', closeOnEsc)
   }, [])
 
+  useEffect(() => {
+    if(isOpen) {
+      document.body.style.overflow = 'hidden'
+    } else {
+      document.body.style.overflow = "visible"
+    }
+
+    return () => {
+      document.body.style.overflow = "visible"
+    }
+  }, [isOpen])
+
   return (
     <>
       <BurgerButton onClick={toggleBurger} isOpen={isOpen} ref={burgerRef}/>
