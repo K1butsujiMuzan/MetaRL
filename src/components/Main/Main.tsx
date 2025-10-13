@@ -8,6 +8,7 @@ import RoadMap from "@components/Main/RoadMap/RoadMap.tsx";
 import Team from "@components/Main/Team/Team.tsx";
 import Questions from "@components/Main/Questions/Questions.tsx";
 import LogoHolder from "@components/Main/LogoHolder/LogoHolder.tsx";
+import Discord from "@components/Main/Discord.tsx";
 
 const Main: React.FC = () => {
   return(
@@ -23,6 +24,7 @@ const Main: React.FC = () => {
         <Questions/>
         <Scroller text={"team"}/>
         <Team/>
+        <Discord/>
       </div>
     </main>
   )
