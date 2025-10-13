@@ -2,12 +2,13 @@ import * as React from 'react'
 import { socials } from '@components/ui/Socials/socials.data.ts'
 
 interface Props {
-  onClick?: () => void
+  onClick?: () => void,
+  className?: string
 }
 
-const Socials: React.FC<Props> = ({ onClick }) => {
+const Socials: React.FC<Props> = ({ onClick, className }) => {
   return (
-    <ul className={'flex flex-wrap justify-center gap-3'}>
+    <ul className={`flex flex-wrap gap-3 items-start ${className}`}>
       {socials.map((social, index) => (
         <li key={index}>
           <a href={'#'} onClick={onClick}>

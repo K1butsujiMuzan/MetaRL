@@ -46,7 +46,7 @@ const HeaderBurger: React.FC = () => {
               onClick={(event: React.MouseEvent) => event.stopPropagation()}
             >
               <HeaderLinks onLinkClick={closeBurger} />
-              <Socials onClick={closeBurger} />
+              <Socials onClick={closeBurger} className={"justify-center"}/>
             </div>
           </div>
         </ReactFocusLock>

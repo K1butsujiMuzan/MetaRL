@@ -12,7 +12,7 @@ import Discord from "@components/Main/Discord.tsx";
 
 const Main: React.FC = () => {
   return(
-    <main className={'bg-black'}>
+    <main className={'bg-black pb-20 lg:pb-30'}>
       <div className={"container px-4 mx-auto flex flex-col gap-20 lg:gap-30"}>
         <Hero />
         <Collection/>

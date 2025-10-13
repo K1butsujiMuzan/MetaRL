@@ -15,7 +15,7 @@ const Header: React.FC = () => {
         <Logo />
         <div className={'md:flex justify-between flex-1 items-center hidden'}>
           <HeaderLinks />
-          <Socials />
+          <Socials className={"justify-center"}/>
         </div>
         <HeaderBurger />
       </div>
