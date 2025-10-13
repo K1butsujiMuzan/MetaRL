@@ -5,8 +5,8 @@ import Scroller from "@components/ui/Scroller/Scroller.tsx";
 import Artists from "@components/Main/Artists/Artists.tsx";
 import Story from "@components/Main/Story/Story.tsx";
 import RoadMap from "@components/Main/RoadMap/RoadMap.tsx";
-import LogoHolder from "@components/Main/LogoHolder/LogoHolder.tsx";
 import Questions from "@components/Main/Questions/Questions.tsx";
+import LogoHolder from "@components/Main/LogoHolder/LogoHolder.tsx";
 
 const Main: React.FC = () => {
   return(
@@ -20,6 +20,7 @@ const Main: React.FC = () => {
         <RoadMap/>
         <LogoHolder/>
         <Questions/>
+        <Scroller text={"team"}/>
       </div>
     </main>
   )
