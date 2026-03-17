@@ -2,16 +2,6 @@
 
 A modern, responsive website for Meta Record Label built with contemporary frontend technologies and best practices.
 
-## ✨ Features
-
-- Modern and clean user interface
-- Fully responsive design across all devices
-- Accessibility-focused development approach
-- High performance with optimized loading
-- Smooth animations and interactive elements
-- Robust focus management for navigation
-- Complete type safety throughout the application
-
 ## 🛠 Tech Stack
 
 **Frontend:**
@@ -34,8 +24,8 @@ A modern, responsive website for Meta Record Label built with contemporary front
 
 ```bash
 # Clone the repository
-git clone [repository-url]
-cd [project-directory]
+git clone https://github.com/K1butsujiMuzan/MetaRL.git
+cd MetaRL
 
 # Install dependencies
 bun install
